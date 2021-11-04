@@ -83,14 +83,4 @@ namespace fastpath
   {
     public string RoleName { get; set; }
   }
-
-  public class UserResult
-  {
-    public string DisplayName { get; set; }
-
-    public UserResult(string displayName)
-    {
-      DisplayName = displayName;
-    }
-  }
 }
